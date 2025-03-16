@@ -10,22 +10,22 @@ class futy
 public:
 	void operator =(int v) {
 		if (v == 2) {
-			this->val = 2;
+			val = 2;
 
 		}
 		else if (v == 3) {
-			this->val = 3;
+			val = 3;
 
 		}
 
 	}
 
 	bool operator ==(int v) {
-		if (v == this->val) {
+		if (v == val) {
 			return true;
 
 		}
-		else if (v != this->val) {
+		else if (v != val) {
 			return false;
 
 		}
@@ -33,11 +33,11 @@ public:
 	}
 
 	bool operator !=(int v) {
-		if (v == this->val) {
+		if (v == val) {
 			return false;
 
 		}
-		else if (v != this->val) {
+		else if (v != val) {
 			return true;
 
 		}
