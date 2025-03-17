@@ -1,5 +1,10 @@
 #pragma once
 
+#include <iostream>
+#include <ctime>
+#include <string>
+#include <stdarg.h>
+
 template <typename A>
 void move(A& d, A& l) {
 	A temp = d;
