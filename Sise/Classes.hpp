@@ -8,7 +8,6 @@
 class futy
 {
 	friend std::ostream& operator<<(std::ostream& os, const futy& other);
-	//friend std::istream& operator>>(std::istream& is, futy& other);
 
 public:
 	void operator =(int v) {
